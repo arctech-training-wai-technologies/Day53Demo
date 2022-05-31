@@ -72,6 +72,7 @@
     <Content Include="3Images.html" />
     <Content Include="4Table.html" />
     <Content Include="5Form.html" />
+    <Content Include="6FormValidation.html" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
     <Content Include="css\bootstrap-grid.rtl.css" />
