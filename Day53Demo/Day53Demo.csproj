@@ -70,6 +70,7 @@
     <Content Include="1Gutter.html" />
     <Content Include="2Typography.html" />
     <Content Include="3Images.html" />
+    <Content Include="4Table.html" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
     <Content Include="css\bootstrap-grid.rtl.css" />
