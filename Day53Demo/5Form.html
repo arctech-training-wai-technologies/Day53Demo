@@ -58,12 +58,81 @@
     <div class="container">
         <h5>File uploader</h5>
         <label for="inputFile" class="form-label">File upload</label>
-        <input type="file" id="inputFile" class="form-control form-control-sm"/>
+        <input type="file" id="inputFile" class="form-control form-control-sm" />
     </div>
 
     <div class="container mb-5">
         <h5>Colour picker</h5>
-        <input type="color" class="form-control form-control-color"/>
+        <input type="color" class="form-control form-control-color" />
+    </div>
+
+    <div class="container mb-5">
+        <h5>Checkbox</h5>
+        <div class="form-check">
+            <input type="checkbox" id="inputCheckBox1" class="form-check-input" />
+            <label for="inputCheckBox1" class="form-check-label">Default Checkbox</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" id="inputCheckBox2" checked="checked" class="form-check-input" />
+            <label for="inputCheckBox2" class="form-check-label">Checked</label>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <h5>Radio</h5>
+        <div class="form-check">
+            <input type="radio" id="inputCheckBox1" class="form-check-input" />
+            <label for="inputCheckBox1" class="form-check-label">Default Checkbox</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" id="inputCheckBox2" checked="checked" class="form-check-input" />
+            <label for="inputCheckBox2" class="form-check-label">Checked</label>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <h5>Switch</h5>
+        <div class="form-check form-switch">
+            <input type="checkbox" id="inputCheckBox1" class="form-check-input" />
+            <label for="inputCheckBox1" class="form-check-label">Default Switch</label>
+        </div>
+        <div class="form-check form-switch">
+            <input type="checkbox" id="inputCheckBox2" checked="checked" class="form-check-input" />
+            <label for="inputCheckBox2" class="form-check-label">Checked</label>
+        </div>
+    </div>
+
+
+    <div class="container mb-5">
+        <h5>Checkbox inline</h5>
+        <div class="form-check form-check-inline">
+            <input type="checkbox" id="inputCheckBox1" class="form-check-input" />
+            <label for="inputCheckBox1" class="form-check-label">Default Checkbox</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="checkbox" id="inputCheckBox2" checked="checked" class="form-check-input" />
+            <label for="inputCheckBox2" class="form-check-label">Checked</label>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <h5>Range - Default</h5>
+        <div>
+            <label for="inputRange1" class="form-label">Default Range</label>
+            <input type="range" id="inputRange1" class="form-range" min="0" max="10" step="0.5" />
+        </div>        
+    </div>
+
+    <div class="container mb-5">
+        <h5>Input Group</h5>
+        <div class="input-group mb-5">
+            <span class="input-group-text">Username</span>
+            <input type="text" class="form-control" />
+        </div>
+        <div class="input-group">
+            <input type="text" class="form-control" />
+            <span class="input-group-text">Username</span>
+        </div>
     </div>
 </body>
 </html>
